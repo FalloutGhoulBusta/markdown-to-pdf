@@ -10,8 +10,34 @@ A modern web application that converts Markdown files into beautiful Mermaid dia
 - 🔄 Convert Markdown content to Mermaid diagrams in real-time
 - 👀 Live preview of both Markdown and rendered diagrams
 - 💾 Download generated diagrams as SVG files
-- 🎨 Beautiful, responsive UI with dark mode support
+- 🎨 Beautiful, responsive UI with theme toggle
+- 🌙 Seamless dark mode and pure white light mode, with instant site-wide switching based on user preference
 - ⚡ Fast and efficient processing
+
+## Roadmap
+
+Here's a list of planned features and improvements. Check them off as they're completed!
+
+- [ ] Export diagrams as PNG, PDF, or copy SVG to clipboard
+- [ ] Download the full Markdown with rendered diagrams as a PDF
+- [ ] Add a live Mermaid code editor for direct diagram tweaking
+- [ ] Syntax highlighting and real-time error feedback for Mermaid code
+- [ ] Provide a gallery of common diagram templates users can insert and customize
+- [ ] Save user-created diagrams for reuse
+- [ ] Render Markdown preview alongside diagrams (side-by-side)
+- [ ] Support for other code block visualizations (e.g., PlantUML, Graphviz)
+- [ ] Generate shareable links for diagrams
+- [ ] Allow users to comment on or annotate diagrams
+- [ ] Add keyboard shortcuts for common actions
+- [ ] Improve accessibility (ARIA labels, better color contrast)
+- [ ] Let users choose Mermaid themes or customize diagram styles
+- [ ] Allow resizing and rearranging diagrams in the UI
+- [ ] Show detailed error messages for invalid Mermaid syntax
+- [ ] Suggest corrections or highlight syntax errors in diagrams
+- [ ] Integrate with cloud storage (Google Drive, Dropbox) for saving/loading Markdown files
+- [ ] Add support for importing Markdown from URLs or GitHub repositories
+- [ ] Add a help section with Mermaid syntax examples and usage tips
+- [ ] Provide floating tooltips and onboarding for new users
 
 ## Getting Started
 

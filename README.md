@@ -2,7 +2,7 @@
 
 A modern web application that converts Markdown files into beautiful Mermaid diagrams. Built with React, TypeScript, and Tailwind CSS.
 
-![MD to Mermaid](https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+![MD to Mermaid](https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
 ## Features
 

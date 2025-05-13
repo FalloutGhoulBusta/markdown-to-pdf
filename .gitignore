@@ -27,3 +27,5 @@ dist-ssr
 # Bolt and Windsurf
 .bolt/
 .windsurf/
+
+to-do.md

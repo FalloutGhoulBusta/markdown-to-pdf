@@ -18,6 +18,7 @@ A modern web application that converts Markdown files into beautiful Mermaid dia
 
 Here's a list of planned features and improvements. Check them off as they're completed!
 
+- [x] Add theme toggle and seamless dark mode support
 - [ ] Export diagrams as PNG, PDF, or copy SVG to clipboard
 - [ ] Download the full Markdown with rendered diagrams as a PDF
 - [ ] Add a live Mermaid code editor for direct diagram tweaking

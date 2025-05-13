@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Force dark mode styles to be obvious and ensure they're working */
+html.dark {
+  @apply bg-neutral-900;
+  color-scheme: dark;
+}
+
+/* Simple utility classes */
+@layer components {
+  .card {
+    @apply bg-white border border-neutral-200 rounded-lg shadow-sm transition-colors;
+  }
+  .dark .card {
+    @apply bg-neutral-800 border-neutral-700;
+  }
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-lg transition-colors;
+  }
+  .btn-secondary {
+    @apply px-4 py-2 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-700 dark:hover:bg-neutral-600 dark:text-white rounded-lg transition-colors;
+  }
+}
+
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;

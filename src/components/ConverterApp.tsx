@@ -33,8 +33,8 @@ const ConverterApp: React.FC = () => {
   return (
     <div className="flex flex-col h-full">
       <div className="mb-6">
-        <h2 className="text-2xl font-bold text-neutral-900 mb-2">Markdown to Mermaid Converter</h2>
-        <p className="text-neutral-600">
+        <h2 className="text-2xl font-bold text-neutral-900 dark:text-white mb-2">Markdown to Mermaid Converter</h2>
+        <p className="text-neutral-600 dark:text-neutral-400">
           Upload your Markdown files containing Mermaid diagram syntax and convert them to visual diagrams.
         </p>
       </div>
@@ -47,8 +47,8 @@ const ConverterApp: React.FC = () => {
         ) : (
           <div className="flex-1 flex flex-col min-h-0">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 flex-1 min-h-0">
-              <div className="card p-4 flex flex-col min-h-[400px]">
-                <h3 className="font-semibold text-neutral-900 mb-2">Markdown Source</h3>
+              <div className="card p-4 flex flex-col min-h-[400px] bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-lg">
+                <h3 className="font-semibold text-neutral-900 dark:text-white mb-2">Markdown Source</h3>
                 <div className="flex-1 min-h-0">
                   <MarkdownEditor 
                     value={markdownContent} 
@@ -57,8 +57,8 @@ const ConverterApp: React.FC = () => {
                 </div>
               </div>
               
-              <div className="card p-4 flex flex-col min-h-[400px]">
-                <h3 className="font-semibold text-neutral-900 mb-2">Mermaid Diagrams</h3>
+              <div className="card p-4 flex flex-col min-h-[400px] bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-lg">
+                <h3 className="font-semibold text-neutral-900 dark:text-white mb-2">Mermaid Diagrams</h3>
                 <div className="flex-1 min-h-0 overflow-auto">
                   {isConverted ? (
                     mermaidDiagrams.length > 0 ? (
